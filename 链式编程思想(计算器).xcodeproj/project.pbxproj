@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844803D31D37460400438BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844803D21D37460400438BD0 /* main.m */; };
+		844803D61D37460400438BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844803D51D37460400438BD0 /* AppDelegate.m */; };
+		844803D91D37460400438BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844803D81D37460400438BD0 /* ViewController.m */; };
+		844803DC1D37460400438BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844803DA1D37460400438BD0 /* Main.storyboard */; };
+		844803DE1D37460400438BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844803DD1D37460400438BD0 /* Assets.xcassets */; };
+		844803E11D37460400438BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844803DF1D37460400438BD0 /* LaunchScreen.storyboard */; };
+		844803EC1D37460500438BD0 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844803EB1D37460500438BD0 /* ___________UITests.m */; };
+		844803F81D37465100438BD0 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 844803F71D37465100438BD0 /* CaculatorMaker.m */; };
+		84D103031D38891A008C8CED /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D103021D38891A008C8CED /* NSObject+CaculatorMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844803E81D37460500438BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844803C61D37460400438BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844803CD1D37460400438BD0;
+			remoteInfo = "链式编程思想(计算器)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844803CE1D37460400438BD0 /* 链式编程思想(计算器).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式编程思想(计算器).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844803D21D37460400438BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844803D41D37460400438BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844803D51D37460400438BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844803D71D37460400438BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844803D81D37460400438BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844803DB1D37460400438BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844803DD1D37460400438BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844803E01D37460400438BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844803E21D37460400438BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844803E71D37460500438BD0 /* 链式编程思想(计算器)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式编程思想(计算器)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844803EB1D37460500438BD0 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		844803ED1D37460500438BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844803F61D37465100438BD0 /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		844803F71D37465100438BD0 /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		84D103011D38891A008C8CED /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
+		84D103021D38891A008C8CED /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844803CB1D37460400438BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844803E41D37460500438BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844803C51D37460400438BD0 = {
+			isa = PBXGroup;
+			children = (
+				844803D01D37460400438BD0 /* 链式编程思想(计算器) */,
+				844803EA1D37460500438BD0 /* 链式编程思想(计算器)UITests */,
+				844803CF1D37460400438BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844803CF1D37460400438BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844803CE1D37460400438BD0 /* 链式编程思想(计算器).app */,
+				844803E71D37460500438BD0 /* 链式编程思想(计算器)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844803D01D37460400438BD0 /* 链式编程思想(计算器) */ = {
+			isa = PBXGroup;
+			children = (
+				844803D41D37460400438BD0 /* AppDelegate.h */,
+				844803D51D37460400438BD0 /* AppDelegate.m */,
+				844803D71D37460400438BD0 /* ViewController.h */,
+				844803D81D37460400438BD0 /* ViewController.m */,
+				844803F61D37465100438BD0 /* CaculatorMaker.h */,
+				844803F71D37465100438BD0 /* CaculatorMaker.m */,
+				84D103011D38891A008C8CED /* NSObject+CaculatorMaker.h */,
+				84D103021D38891A008C8CED /* NSObject+CaculatorMaker.m */,
+				844803D11D37460400438BD0 /* Supporting Files */,
+			);
+			path = "链式编程思想(计算器)";
+			sourceTree = "<group>";
+		};
+		844803D11D37460400438BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844803DA1D37460400438BD0 /* Main.storyboard */,
+				844803DD1D37460400438BD0 /* Assets.xcassets */,
+				844803DF1D37460400438BD0 /* LaunchScreen.storyboard */,
+				844803E21D37460400438BD0 /* Info.plist */,
+				844803D21D37460400438BD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844803EA1D37460500438BD0 /* 链式编程思想(计算器)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				844803EB1D37460500438BD0 /* ___________UITests.m */,
+				844803ED1D37460500438BD0 /* Info.plist */,
+			);
+			path = "链式编程思想(计算器)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844803CD1D37460400438BD0 /* 链式编程思想(计算器) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844803F01D37460500438BD0 /* Build configuration list for PBXNativeTarget "链式编程思想(计算器)" */;
+			buildPhases = (
+				844803CA1D37460400438BD0 /* Sources */,
+				844803CB1D37460400438BD0 /* Frameworks */,
+				844803CC1D37460400438BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "链式编程思想(计算器)";
+			productName = "链式编程思想(计算器)";
+			productReference = 844803CE1D37460400438BD0 /* 链式编程思想(计算器).app */;
+			productType = "com.apple.product-type.application";
+		};
+		844803E61D37460500438BD0 /* 链式编程思想(计算器)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844803F31D37460500438BD0 /* Build configuration list for PBXNativeTarget "链式编程思想(计算器)UITests" */;
+			buildPhases = (
+				844803E31D37460500438BD0 /* Sources */,
+				844803E41D37460500438BD0 /* Frameworks */,
+				844803E51D37460500438BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844803E91D37460500438BD0 /* PBXTargetDependency */,
+			);
+			name = "链式编程思想(计算器)UITests";
+			productName = "链式编程思想(计算器)UITests";
+			productReference = 844803E71D37460500438BD0 /* 链式编程思想(计算器)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844803C61D37460400438BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘怀轩";
+				TargetAttributes = {
+					844803CD1D37460400438BD0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					844803E61D37460500438BD0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 844803CD1D37460400438BD0;
+					};
+				};
+			};
+			buildConfigurationList = 844803C91D37460400438BD0 /* Build configuration list for PBXProject "链式编程思想(计算器)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844803C51D37460400438BD0;
+			productRefGroup = 844803CF1D37460400438BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844803CD1D37460400438BD0 /* 链式编程思想(计算器) */,
+				844803E61D37460500438BD0 /* 链式编程思想(计算器)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844803CC1D37460400438BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844803E11D37460400438BD0 /* LaunchScreen.storyboard in Resources */,
+				844803DE1D37460400438BD0 /* Assets.xcassets in Resources */,
+				844803DC1D37460400438BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844803E51D37460500438BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844803CA1D37460400438BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844803D91D37460400438BD0 /* ViewController.m in Sources */,
+				844803F81D37465100438BD0 /* CaculatorMaker.m in Sources */,
+				844803D61D37460400438BD0 /* AppDelegate.m in Sources */,
+				844803D31D37460400438BD0 /* main.m in Sources */,
+				84D103031D38891A008C8CED /* NSObject+CaculatorMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844803E31D37460500438BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844803EC1D37460500438BD0 /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844803E91D37460500438BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844803CD1D37460400438BD0 /* 链式编程思想(计算器) */;
+			targetProxy = 844803E81D37460500438BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844803DA1D37460400438BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844803DB1D37460400438BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844803DF1D37460400438BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844803E01D37460400438BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844803EE1D37460500438BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		844803EF1D37460500438BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844803F11D37460500438BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "链式编程思想(计算器)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51tsg.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844803F21D37460500438BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "链式编程思想(计算器)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51tsg.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		844803F41D37460500438BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "链式编程思想(计算器)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51tsg.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "链式编程思想(计算器)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		844803F51D37460500438BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "链式编程思想(计算器)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51tsg.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "链式编程思想(计算器)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844803C91D37460400438BD0 /* Build configuration list for PBXProject "链式编程思想(计算器)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844803EE1D37460500438BD0 /* Debug */,
+				844803EF1D37460500438BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844803F01D37460500438BD0 /* Build configuration list for PBXNativeTarget "链式编程思想(计算器)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844803F11D37460500438BD0 /* Debug */,
+				844803F21D37460500438BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844803F31D37460500438BD0 /* Build configuration list for PBXNativeTarget "链式编程思想(计算器)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844803F41D37460500438BD0 /* Debug */,
+				844803F51D37460500438BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844803C61D37460400438BD0 /* Project object */;
+}
